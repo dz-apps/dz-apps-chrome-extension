@@ -1,0 +1,21 @@
+{
+  "name": "Dz Apps",
+  "description": "D-Clutter",
+  "version": "1.0",
+  "manifest_version": 3,
+  "action": {
+    "default_icon": {
+      "16": "dz-apps-16.png",
+      "32": "dz-apps-32.png",
+      "48": "dz-apps-48.png",
+      "128": "dz-apps-128.png"
+    },
+    "default_popup": "index.html"
+  },
+  "icons": {
+    "16": "dz-apps-16.png",
+    "32": "dz-apps-32.png",
+    "48": "dz-apps-48.png",
+    "128": "dz-apps-128.png"
+  }
+}

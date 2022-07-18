@@ -1,0 +1,33 @@
+{
+  "name": "D-polarize",
+  "description": "Regardless of affiliation, government servants should be serving the people.",
+  "version": "1.0",
+  "manifest_version": 3,
+  "action": {
+    "default_icon": {
+      "16": "/images/depo-16.jpg",
+      "32": "/images/depo-32.jpg",
+      "48": "/images/depo-48.jpg",
+      "128": "/images/depo-128.jpg"
+    }
+  },
+  "icons": {
+    "16": "/images/depo-16.jpg",
+    "32": "/images/depo-32.jpg",
+    "48": "/images/depo-48.jpg",
+    "128": "/images/depo-128.jpg"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content-scripts/main.js"],
+      "run_at": "document_end"
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "matches": ["<all_urls>"],
+      "resources": ["content-scripts/general.js"]
+    }
+  ]
+}
